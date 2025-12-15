@@ -1,2 +1,3 @@
 FROM nginx
-COPY code /sur/share/nginx/html
+COPY code /usr/share/nginx/html
+EXPOSE 80
