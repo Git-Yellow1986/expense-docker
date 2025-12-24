@@ -1,3 +1,3 @@
 FROM almalinux:9.2
-RUN dnf install telnet -y \ 
-    cmd ["sleep","1000"] 
+RUN dnf install telnet -y 
+RUN cmd ["sleep","1000"] 
